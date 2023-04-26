@@ -86,6 +86,11 @@
 
         <div class="w-11/12 flex flex-col items-center space-y-4">
             <p class="font-medium lg:text-lg text-base text-center">Veuillez consulter nos rapports d'activité</p>
+            <div class="w-full flex flex-col space-y-2">
+                <a href="http://localhost:8888/assets/pdf/Rapport_Activite_GA_2021.pdf"
+                    download="Rapport_Activite_GA_2021.pdf" class="underline">>Télécharger le rapport d'activité
+                    GlobalAxe 2021</a>
+            </div>
         </div>
     </div>
 
