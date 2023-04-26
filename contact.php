@@ -14,7 +14,7 @@ session_start();
     <meta name="keywords"
         content="GlobalAxe, hébergement, Charleville-Mézières, Ardennes, hébergement d'urgence, réadaptation sociale, aide sociale, association agréée, Le Trait d'Union, Centre d'hébergement">
     <meta name="description"
-        content="L'association Ancre de Charleville-Mézières dans les Ardennes proposent différentes aides. Que se soit des problèmes familiaux, l'hébergement pour les migrants, etc">
+        content="Spécialisée dans le champ de l’Accueil Hébergement Insertion (AHI) et de l’insertion socioprofessionnelle, l’Association GLOBAL AXE et ses équipes œuvrent chaque jour au service de l’Humain.">
 
     <title>GLOBAL AXE | Nous contacter</title>
 

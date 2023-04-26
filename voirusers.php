@@ -34,7 +34,7 @@ $resultroles = $pdoStatroles->fetchAll(PDO::FETCH_ASSOC);
     <?php include "assets/includes/adminnav.php" ?>
 
     <div class="w-11/12 py-10 space-y-5 flex flex-col items-center">
-        <h1 class="text-5xl">Vision d'un article</h1>
+        <h1 class="text-5xl">Vision d'un utilisateur</h1>
 
         <div class="w-full">
             <div class="w-full">

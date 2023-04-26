@@ -1,3 +1,14 @@
+<?php
+
+require "admin/db/connectdb.php";
+
+$sqlRequestarticles = ("SELECT * FROM articles");
+$pdoStatarticles = $dbh->prepare($sqlRequestarticles);
+$pdoStatarticles->execute();
+
+$resultarticles = $pdoStatarticles->fetchAll(PDO::FETCH_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -11,7 +22,7 @@
     <meta name="keywords"
         content="GlobalAxe, hébergement, Charleville-Mézières, Ardennes, hébergement d'urgence, réadaptation sociale, aide sociale, association agréée, Le Trait d'Union, Centre d'hébergement">
     <meta name="description"
-        content="L'association Ancre de Charleville-Mézières dans les Ardennes proposent différentes aides. Que se soit des problèmes familiaux, l'hébergement pour les migrants, etc">
+        content="Spécialisée dans le champ de l’Accueil Hébergement Insertion (AHI) et de l’insertion socioprofessionnelle, l’Association GLOBAL AXE et ses équipes œuvrent chaque jour au service de l’Humain.">
 
     <title>GLOBAL AXE | Association agréée au titre d'aide sociale</title>
 
@@ -32,21 +43,20 @@
         <div class="absolute w-11/12 lg:w-5/6 flex lg:flex-row flex-col-reverse items-center justify-between">
             <div class="lg:w-1/2 w-5/6">
                 <div class="actus">
-                    <div class="flex items-center justify-center">
-                        <div class="bg-white p-2 rounded w-5/6">
-                            Test
+                    <?php foreach ($resultarticles as $article) { ?>
+                    <div class="flex justify-center items-center">
+                        <div class="bg-[#FAFAFA] border-2 border-[#931212] rounded-xl p-2 space-y-3 w-11/12">
+                            <img src="assets/images/<?php echo $article['image'] ?>" alt="Image artcles" class="w-full">
+                            <h2 class="text-3xl font-bold text-[#FF1D25] w-full"><?php echo $article['titre'] ?></h2>
+                            <p class="text-[#931212] font-semibold w-full"><?php echo $article['accroche'] ?></p>
+                            <p class="w-full line-clamp-3"><?php echo $article['description'] ?></p>
+                            <div class="w-full flex justify-between text-sm">
+                                <p class="text-sm text-[#AAAAAA]"><?php echo $article['createdAt'] ?></p>
+                                <?php echo "<a href='/Article?id=" . $article['id'] . "'>Voir l'article ></a>" ?>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center">
-                        <div class="bg-white p-2 rounded w-5/6">
-                            Test
-                        </div>
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <div class="bg-white p-2 rounded w-5/6">
-                            Test
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
             <img src="assets/images/Logo.png" alt="Logo GlobalAxe" title="Logo GlobalAxe">
