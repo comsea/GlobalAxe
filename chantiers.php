@@ -36,12 +36,12 @@
 
     <div class="w-full flex flex-col items-center lg:mt-16 mt-10 lg:space-y-8 space-y-4 lg:mb-16 mb-10">
         <div class="w-11/12 flex flex-col items-center space-y-2">
-            <h2 class="font-bold text-6xl text-center">Qu'est-ce que les Chantiers d'Insertion ?</h2>
+            <h2 class="font-bold lg:text-6xl text-2xl text-center">Qu'est-ce que les Chantiers d'Insertion ?</h2>
             <div class="w-5/6 h-[5px] bg-gradient-to-r from-[#931212] to-[#FF1D25] rounded-full"></div>
         </div>
 
-        <div class="w-11/12 flex flex-row items-start justify-between">
-            <div class="w-3/5 flex flex-col items-center space-y-4">
+        <div class="w-11/12 flex lg:flex-row flex-col items-start justify-between lg:space-y-0 space-y-4">
+            <div class="lg:w-3/5 w-full flex flex-col items-center space-y-4">
                 <p class="w-full">Ce service a ouvert des <span class="text-[#FF1D25] font-bold">ateliers et chantiers
                         d’insertion</span> à Bogny-sur-Meuse avec comme support la confection textile. Il repose sur
                     deux objectifs :</p>
@@ -60,8 +60,8 @@
                         class="hover:underline font-bold text-[#00ECC2]" target="_blank">AMBITION PRO</a>.</p>
             </div>
 
-            <div class="w-1/3 flex items-center justify-center">
-                <img src="assets/images/atelier.png" alt="Atelier" class="w-full">
+            <div class="lg:w-1/3 w-full flex items-center justify-center">
+                <img src="assets/images/atelier.png" alt="Atelier" class="lg:w-full w-5/6">
             </div>
         </div>
     </div>

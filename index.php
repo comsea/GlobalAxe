@@ -29,7 +29,26 @@
         <img src="assets/images/bg.png" alt="Background GlobalAxe" class="h-full w-full object-cover"
             title="Background Index">
         <div class="h-full w-full absolute bg-black/50"></div>
-        <div class="absolute w-5/6 lg:w-1/2 xl:w-[40%] flex flex-row items-center">
+        <div class="absolute w-11/12 lg:w-5/6 flex lg:flex-row flex-col-reverse items-center justify-between">
+            <div class="lg:w-1/2 w-5/6">
+                <div class="actus">
+                    <div class="flex items-center justify-center">
+                        <div class="bg-white p-2 rounded w-5/6">
+                            Test
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="bg-white p-2 rounded w-5/6">
+                            Test
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="bg-white p-2 rounded w-5/6">
+                            Test
+                        </div>
+                    </div>
+                </div>
+            </div>
             <img src="assets/images/Logo.png" alt="Logo GlobalAxe" title="Logo GlobalAxe">
         </div>
     </div>
@@ -38,18 +57,18 @@
 
     <div class="w-full flex flex-col items-center lg:mt-16 mt-10 lg:space-y-8 space-y-4 lg:mb-16 mb-10">
         <div class="w-11/12 flex flex-col items-center space-y-2">
-            <h1 class="font-bold text-6xl">Global Axe</h1>
+            <h1 class="font-bold lg:text-6xl text-2xl text-center">Global Axe</h1>
             <div class="w-5/6 h-[5px] bg-gradient-to-r from-[#931212] to-[#FF1D25] rounded-full"></div>
         </div>
 
-        <div class="w-11/12 flex flex-row items-center">
-            <div class="w-1/2">
+        <div class="w-11/12 flex lg:flex-row flex-col items-center lg:space-y-0 space-y-4">
+            <div class="lg:w-1/2 w-full">
                 <p>Spécialisée dans le champ de l’Accueil Hébergement Insertion (AHI) et de l’insertion
                     socioprofessionnelle, l’Association <span class="text-[#FF1D25] font-bold">GLOBAL AXE</span> et ses
                     équipes œuvrent chaque jour au service de
                     l’Humain.</p>
             </div>
-            <div class="w-1/2 flex items-center justify-center">
+            <div class="lg:w-1/2 w-full flex items-center justify-center">
                 <img src="assets/images/bg.png" alt="Photo ensemble" class="w-2/3">
             </div>
         </div>
@@ -59,6 +78,16 @@
     <?php include "assets/includes/footer.php" ?>
 
     <script src="assets/js/navbar.js"></script>
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+    <script src="assets/js/slider.js"></script>
 </body>
 
 </html>
