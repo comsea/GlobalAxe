@@ -146,7 +146,7 @@ session_start();
             <p class="lg:ml-5 ml-2 text-start">53 Avenue Léon Bourgeois, 08000, Charleville-Mézières</p>
             <p class="lg:ml-5 ml-2 text-start">03.24.59.16.76</p>
         </div>
-        <div class="lg:p-5 p-2 space-y-2">
+        <div class="lg:p-5 p-2 space-y-2 border-t border-black">
             <p class="text-lg">Chantiers d'Insertion</p>
         </div>
     </div>
