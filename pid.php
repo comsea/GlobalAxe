@@ -121,7 +121,7 @@
             <div class="w-5/6 h-[5px] bg-gradient-to-r from-[#931212] to-[#FF1D25] rounded-full"></div>
         </div>
 
-        <div class="w-11/12 flex lg:flex-row flex-col items-start justify-between lg:space-y-0 space-y-4">
+        <div class="w-11/12 flex lg:flex-row-reverse flex-col items-start justify-between lg:space-y-0 space-y-4">
             <div class="lg:w-3/5 w-full flex flex-col items-center space-y-4">
                 <p class="w-full">Pour toute personne ayant rapidement besoin d’un coup de pouce afin de se <span
                         class="text-[#FF1D25] font-bold">préparer à l’emploi</span> ou de se <span
@@ -191,7 +191,7 @@
             <div class="w-5/6 h-[5px] bg-gradient-to-r from-[#931212] to-[#FF1D25] rounded-full"></div>
         </div>
 
-        <div class="w-11/12 flex lg:flex-row flex-col items-start justify-between lg:space-y-0 space-y-4">
+        <div class="w-11/12 flex lg:flex-row-reverse flex-col items-start justify-between lg:space-y-0 space-y-4">
             <div class="lg:w-3/5 w-full flex flex-col items-center space-y-4">
                 <p class="w-full">« Habiter Oui, Mais Ensemble » telle est la devise de notre dispositif d’<span
                         class="text-[#FF1D25] font-bold">habitat inclusif « HOME »</span> à destination des personnes :

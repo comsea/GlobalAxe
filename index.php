@@ -59,7 +59,7 @@ $resultarticles = $pdoStatarticles->fetchAll(PDO::FETCH_ASSOC);
                     <?php } ?>
                 </div>
             </div>
-            <img src="assets/images/Logo.png" alt="Logo GlobalAxe" title="Logo GlobalAxe">
+            <img src="assets/images/Logo.png" alt="Logo GlobalAxe" title="Logo GlobalAxe" class="lg:w-1/2 w-5/6">
         </div>
     </div>
 

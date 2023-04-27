@@ -65,9 +65,12 @@
             </p>
             <p class="w-full">Ces trois missions sont assurées par trois services :</p>
             <ul class="w-5/6 list-disc">
-                <li>La Maison e la Veille Social (MVS). <a href="" class="text-sm underline">voir -></a></li>
-                <li>Le Pôle Ingénierie & Développement (PID). <a href="" class="text-sm underline">voir -></a></li>
-                <li>La Service Insertion par l'Activité Économique. <a href="" class="text-sm underline">voir -></a>
+                <li>La Maison e la Veille Social (MVS). <a href="/Maison-de-la-Veille-Social"
+                        class="text-sm underline">voir -></a></li>
+                <li>Le Pôle Ingénierie & Développement (PID). <a href="/Pole-Ingenierie-et-Developpement"
+                        class="text-sm underline">voir -></a></li>
+                <li>La Service Insertion par l'Activité Économique. <a href="/Pole-Ingenierie-et-Developpement#emploi"
+                        class="text-sm underline">voir -></a>
                 </li>
             </ul>
             <p class="w-full">L’association <span class="text-[#FF1D25] font-bold">GLOBAL AXE</span> appartient au
