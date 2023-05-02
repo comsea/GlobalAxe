@@ -46,7 +46,8 @@ $resultarticles = $pdoStatarticles->fetchAll(PDO::FETCH_ASSOC);
                     <?php foreach ($resultarticles as $article) { ?>
                     <div class="flex justify-center items-center">
                         <div class="bg-[#FAFAFA] border-2 border-[#931212] rounded-xl p-2 space-y-3 w-11/12">
-                            <img src="assets/images/<?php echo $article['image'] ?>" alt="Image artcles" class="w-full">
+                            <img src="assets/images/<?php echo $article['image'] ?>" alt="Image actus"
+                                title="Images actus" class="w-full">
                             <h2 class="text-3xl font-bold text-[#FF1D25] w-full"><?php echo $article['titre'] ?></h2>
                             <p class="text-[#931212] font-semibold w-full"><?php echo $article['accroche'] ?></p>
                             <p class="w-full line-clamp-3"><?php echo $article['description'] ?></p>
@@ -79,7 +80,7 @@ $resultarticles = $pdoStatarticles->fetchAll(PDO::FETCH_ASSOC);
                     l’Humain.</p>
             </div>
             <div class="lg:w-1/2 w-full flex items-center justify-center">
-                <img src="assets/images/bg.png" alt="Photo ensemble" class="w-2/3">
+                <img src="assets/images/bg.png" alt="Photo ensemble" title="Photo ensemble" class="w-2/3">
             </div>
         </div>
     </div>
