@@ -73,8 +73,8 @@
             <p class="w-full">Le parc propose des voitures, des scooters, des vélos et trottinettes à assistance
                 électrique. Sur la base d’un pourcentage de ses ressources, une participation financière sera demandée
                 au bénéficiaire.</p>
-            <p class="w-full"><a href="" class="font-bold lg:text-lg text-base hover:underline">-> Flyer (bientôt
-                    disponible)</a></p>
+            <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/mobilite.pdf" download="mobilite.pdf"
+                    class="font-bold lg:text-lg text-base hover:underline">-> Flyer</a></p>
             <p class="w-full">Pour obtenir plus d’informations, veuillez contacter :</p>
             <ul class="w-5/6 list-disc">
                 <li>mobilite@globalaxe08.fr</li>
@@ -100,8 +100,8 @@
                     gestion du budget et de l’administratif, au projet locatif, à la prévention des risques ou encore à
                     la consommation d’énergie. Les ateliers s’effectueront au sein d’un appartement pédagogique
                     permettant l’apprentissage, dans un environnement immersif.</p>
-                <p class="w-full"><a href="" class="font-bold lg:text-lg text-base hover:underline">-> Flyer (bientôt
-                        disponible)</a></p>
+                <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/prepa_loc.pdf" download="prepa_loc‡.pdf"
+                        class="font-bold lg:text-lg text-base hover:underline">-> Flyer</a></p>
                 <p class="w-full">Pour obtenir plus d’informations, veuillez contacter :</p>
                 <ul class="w-5/6 list-disc">
                     <li>c.boge@globalaxe08.fr</li>
@@ -131,8 +131,8 @@
                     jusqu’à la recherche d’emploi, bon nombre de modules différents sont proposés pour préparer le
                     retour à l’emploi et réinstaurer un lien entre la personne et la structure d’accompagnement vers
                     l’emploi (Pole Emploi, Mission Locale, Cap emploi).</p>
-                <p class="w-full"><a href="" class="font-bold lg:text-lg text-base hover:underline">-> Flyer (bientôt
-                        disponible)</a></p>
+                <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/prepa_job.pdf" download="prepa_job.pdf"
+                        class="font-bold lg:text-lg text-base hover:underline">-> Flyer</a></p>
                 <p class="w-full">Pour obtenir plus d’informations, veuillez contacter :</p>
                 <ul class="w-5/6 list-disc">
                     <li>l.poncelet@globalaxe08.fr</li>
@@ -169,8 +169,11 @@
                 <p class="w-full">Sont également dispensés des Ateliers de Français Langues Professionnelles (AFL PRO)
                     consistant à développer des compétences linguistiques orales et écrites propres à un champ
                     d'activité spécifique (bâtiment, industrie, santé, hôtellerie…).</p>
-                <p class="w-full"><a href="" class="font-bold lg:text-lg text-base hover:underline">-> Flyer (bientôt
-                        disponible)</a></p>
+                <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/asl.pdf" download="asl.pdf"
+                        class="font-bold lg:text-lg text-base hover:underline">-> Flyer (ASL)</a>
+                </p>
+                <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/afl.pdf" download="afl.pdf"
+                        class="font-bold lg:text-lg text-base hover:underline">-> Flyer (AFL)</a></p>
                 <p class="w-full">Pour obtenir plus d’informations, veuillez contacter :</p>
                 <ul class="w-5/6 list-disc">
                     <li>l.poncelet@globalaxe08.fr</li>
@@ -208,8 +211,8 @@
                 <p class="w-full">Ce dispositif, fondé sur une volonté de soutenir l’autonomie, de créer du lien social
                     et rompre l’isolement, propose un accompagnement aux personnes sur des temps collectifs et
                     individuels.</p>
-                <p class="w-full"><a href="" class="font-bold lg:text-lg text-base hover:underline">-> Flyer (bientôt
-                        disponible)</a></p>
+                <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/home.pdf" download="home.pdf"
+                        class="font-bold lg:text-lg text-base hover:underline">-> Flyer</a></p>
                 <p class="w-full">Pour obtenir plus d’informations, veuillez contacter :</p>
                 <ul class="w-5/6 list-disc">
                     <li>07.84.85.87.78</li>
@@ -243,6 +246,8 @@
                 <li>La mise à disposition de véhicules pour faciliter la mobilité à visée sur l’ensemble du département
                     des Ardennes.</li>
             </ul>
+            <p class="w-full"><a href="http://globalaxe.fr/assets/pdf/cej.pdf" download="cej.pdf"
+                    class="font-bold lg:text-lg text-base hover:underline">-> Flyer</a></p>
         </div>
     </div>
 
