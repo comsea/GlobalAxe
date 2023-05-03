@@ -18,7 +18,7 @@ $resultarticles = $pdoStatarticles->fetchAll(PDO::FETCH_ASSOC);
 
 if (isset($_GET['id'])) {
     if (!empty($_POST)) {
-        $nom = isset($_POST['nom']) ? $_POST['nom'] : '';
+        $nom = isset($_POST['titre']) ? $_POST['titre'] : '';
 
         $img_nom = $_FILES['image']['name'];
         $tmp_nom = $_FILES['image']['tmp_name'];
@@ -67,26 +67,22 @@ if (isset($_GET['id'])) {
 
         <div class="w-full">
             <div class="w-full">
-                <a href="photo.php"
-                    class="bg-gradient-to-r from-[#931212] to-[#FF1D25] text-white rounded px-5 py-2">Retour</a>
+                <a href="photo.php" class="bg-gradient-to-r from-[#931212] to-[#FF1D25] text-white rounded px-5 py-2">Retour</a>
             </div>
         </div>
     </div>
 
     <div class="w-11/12 flex flex-col items-center">
-        <form action="modifphotos.php?id=<?php echo $contact['id']; ?>" method="post" enctype="multipart/form-data"
-            class="w-2/3 flex flex-col bg-[#EAEAEA] p-4 border-2 border-[#931212] rounded-xl space-y-8">
+        <form action="modifphotos.php?id=<?php echo $contact['id']; ?>" method="post" enctype="multipart/form-data" class="w-2/3 flex flex-col bg-[#EAEAEA] p-4 border-2 border-[#931212] rounded-xl space-y-8">
             <div class="w-full">
                 <div class="w-full lg:space-y-3 space-y-2">
                     <div class="flex flex-col items-start w-full">
                         <label for="titre">Nom de la photo*</label>
-                        <input type="text" for="addarticle" id="titre" name="titre"
-                            value="<?php echo $contact['nom']; ?>" class="rounded w-full p-1 text-black">
+                        <input type="text" for="addarticle" id="titre" name="titre" value="<?php echo $contact['nom']; ?>" class="rounded w-full p-1 text-black">
                     </div>
                     <div class="flex flex-col items-start w-full">
                         <label for="image">Image*</label>
-                        <input type="file" for="addarticle" id="image" name="image"
-                            class="rounded w-full p-1 text-black">
+                        <input type="file" for="addarticle" id="image" name="image" class="rounded w-full p-1 text-black">
                     </div>
                     <div class="flex flex-col items-start w-full">
                         <label for="id">Article en lien*</label>
@@ -94,12 +90,12 @@ if (isset($_GET['id'])) {
                             <?php foreach ($resultarticles as $art) {
                                 if ($art["id"] == $contact['id_articles']) { ?>
 
-                            <option value="<?php echo $art['id']; ?>">
-                                <?php echo $art['titre']; ?></option>
+                                    <option value="<?php echo $art['id']; ?>">
+                                        <?php echo $art['titre']; ?></option>
                             <?php }
                             } ?>
                             <?php foreach ($resultarticles as $article) { ?>
-                            <option value="<?php echo $article['id'] ?>"><?php echo $article['titre'] ?></option>
+                                <option value="<?php echo $article['id'] ?>"><?php echo $article['titre'] ?></option>
                             <?php } ?>
                         </select>
                     </div>
