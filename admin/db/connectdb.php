@@ -4,9 +4,9 @@ try {
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 } 
-/*  
+/*
 try {
-    $dbh = new PDO('mysql:host=ancrefpbdd.mysql.db;dbname=ancrefpbdd;charset=utf8', 'ancrefpbdd', 'Assoancre08', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+    $dbh = new PDO('mysql:host=globalcbdd.mysql.db;dbname=globalcbdd;charset=utf8', 'globalcbdd', 'Globalaxe08', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }*/
