@@ -8,10 +8,8 @@
     <meta name="author" content="Hemonet Teddy">
     <meta name="publisher" content="COMSEA">
     <meta name="robots" content="index, follow">
-    <meta name="keywords"
-        content="GlobalAxe, hébergement, Charleville-Mézières, Ardennes, hébergement d'urgence, réadaptation sociale, aide sociale, association agréée, Le Trait d'Union, Centre d'hébergement">
-    <meta name="description"
-        content="Spécialisée dans le champ de l’Accueil Hébergement Insertion (AHI) et de l’insertion socioprofessionnelle, l’Association GLOBAL AXE et ses équipes œuvrent chaque jour au service de l’Humain.">
+    <meta name="keywords" content="GlobalAxe, hébergement, Charleville-Mézières, Ardennes, hébergement d'urgence, réadaptation sociale, aide sociale, association agréée, Le Trait d'Union, Centre d'hébergement">
+    <meta name="description" content="Spécialisée dans le champ de l’Accueil Hébergement Insertion (AHI) et de l’insertion socioprofessionnelle, l’Association GLOBAL AXE et ses équipes œuvrent chaque jour au service de l’Humain.">
 
     <title>GLOBAL AXE | Présentation de l'association</title>
 
@@ -28,8 +26,7 @@
     <?php include "assets/includes/navbar.php" ?>
 
     <div class="w-full flex flex-col items-center lg:py-16 py-3 relative text-white">
-        <img src="assets/images/bg.png" alt="Image bg présentation"
-            class="absolute w-full h-full -z-20 top-0 object-cover" title="Background titre">
+        <img src="assets/images/bg.png" alt="Image bg présentation" class="absolute w-full h-full -z-20 top-0 object-cover" title="Background titre">
         <div class="absolute w-full h-full -z-10 bg-black/50 top-0 m-0"></div>
         <h1 class="lg:text-5xl text-2xl font-semibold">Global Axe</h1>
     </div>
@@ -47,8 +44,7 @@
                 en leur proposant un accompagnement global par le logement et la voie socio-professionnelle.</p>
             <p class="w-full">L’association, riche d’une trentaine de salarié(e)s permanents, œuvre chaque jour afin de
                 répondre à des besoins toujours plus importants. Elle s’inscrit au sein d’un maillage territorial fort
-                soutenu par le groupement associatif <a href="https://www.groupeambition.fr"
-                    class="hover:underline font-bold text-[#212A68]" target="_blank">AMBITION</a> et par un large réseau
+                soutenu par le groupement associatif <a href="https://www.groupeambition.fr" class="hover:underline font-bold text-[#212A68]" target="_blank">AMBITION</a> et par un large réseau
                 partenarial. Ensemble, ils contribuent à développer une société plus juste, inclusive et solidaire.</p>
         </div>
 
@@ -65,17 +61,13 @@
             </p>
             <p class="w-full">Ces trois missions sont assurées par trois services :</p>
             <ul class="w-5/6 list-disc">
-                <li>La Maison e la Veille Social (MVS). <a href="/Maison-de-la-Veille-Social"
-                        class="text-sm underline">voir -></a></li>
-                <li>Le Pôle Ingénierie & Développement (PID). <a href="/Pole-Ingenierie-et-Developpement"
-                        class="text-sm underline">voir -></a></li>
-                <li>La Service Insertion par l'Activité Économique. <a href="/Pole-Ingenierie-et-Developpement#emploi"
-                        class="text-sm underline">voir -></a>
+                <li>La Maison de la Veille Social (MVS). <a href="/Maison-de-la-Veille-Social" class="text-sm underline">voir -></a></li>
+                <li>Le Pôle Ingénierie & Développement (PID). <a href="/Pole-Ingenierie-et-Developpement" class="text-sm underline">voir -></a></li>
+                <li>La Service Insertion par l'Activité Économique. <a href="/Pole-Ingenierie-et-Developpement#emploi" class="text-sm underline">voir -></a>
                 </li>
             </ul>
             <p class="w-full">L’association <span class="text-[#FF1D25] font-bold">GLOBAL AXE</span> appartient au
-                groupement de coopération <a href="https://www.groupeambition.fr"
-                    class="hover:underline font-bold text-[#212A68]" target="_blank">AMBITION</a> réunissant d’autres
+                groupement de coopération <a href="https://www.groupeambition.fr" class="hover:underline font-bold text-[#212A68]" target="_blank">AMBITION</a> réunissant d’autres
                 entités spécialisées dans le secteur de l’insertion et de l’hébergement. Ensemble, nous mutualisons nos
                 compétences pour développer des services et des actions qui répondent aux besoins du territoire.</p>
         </div>
@@ -90,8 +82,7 @@
         <div class="w-11/12 flex flex-col items-center space-y-4">
             <p class="font-medium lg:text-lg text-base text-center">Veuillez consulter nos rapports d'activité</p>
             <div class="w-full flex flex-col space-y-2">
-                <a href="http://localhost:8888/assets/pdf/Rapport_Activite_GA_2021.pdf"
-                    download="Rapport_Activite_GA_2021.pdf" class="underline">>Télécharger le rapport d'activité
+                <a href="http://localhost:8888/assets/pdf/Rapport_Activite_GA_2021.pdf" download="Rapport_Activite_GA_2021.pdf" class="underline">>Télécharger le rapport d'activité
                     GlobalAxe 2021</a>
             </div>
         </div>
